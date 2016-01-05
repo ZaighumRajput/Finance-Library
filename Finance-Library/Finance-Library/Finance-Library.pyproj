@@ -22,13 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Finance-Library\Products\Equities\__init__.py" />
+    <Compile Include="Finance-Library\Products\ForeignExchange\__init__.py" />
+    <Compile Include="Finance-Library\Products\Rates\__init__.py" />
     <Compile Include="Finance-Library\__init__.py" />
     <Compile Include="__main__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Finance-Library\" />
-    <Folder Include="Finance-Library\Equities\" />
-    <Folder Include="Finance-Library\ForeignExchange\" />
+    <Folder Include="Finance-Library\Products\Equities\" />
+    <Folder Include="Finance-Library\Products\ForeignExchange\" />
+    <Folder Include="Finance-Library\EconomicScenarioGenerator\" />
+    <Folder Include="Finance-Library\Products\" />
+    <Folder Include="Finance-Library\Products\Rates\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
