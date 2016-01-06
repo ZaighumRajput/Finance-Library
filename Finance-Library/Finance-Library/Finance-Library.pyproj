@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Finance-Library\ModelCalibration\__init__.py" />
     <Compile Include="Finance-Library\Products\Credit\__init__.py" />
     <Compile Include="Finance-Library\Products\Equities\__init__.py" />
     <Compile Include="Finance-Library\Products\ForeignExchange\__init__.py" />
@@ -31,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Finance-Library\" />
+    <Folder Include="Finance-Library\ModelCalibration\" />
     <Folder Include="Finance-Library\Products\Equities\" />
     <Folder Include="Finance-Library\Products\ForeignExchange\" />
     <Folder Include="Finance-Library\EconomicScenarioGenerator\" />
