@@ -4,13 +4,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b4d5453a-c15e-463d-ab8b-68ed2bf80402</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>__main__.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Finance-Library</Name>
+    <Name>FinanceLibrary</Name>
     <RootNamespace>Finance-Library</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,23 +23,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Finance-Library\ModelCalibration\__init__.py" />
-    <Compile Include="Finance-Library\Products\Credit\__init__.py" />
-    <Compile Include="Finance-Library\Products\Equities\__init__.py" />
-    <Compile Include="Finance-Library\Products\ForeignExchange\__init__.py" />
-    <Compile Include="Finance-Library\Products\Rates\__init__.py" />
-    <Compile Include="Finance-Library\__init__.py" />
+    <Compile Include="FinanceLibrary\ModelCalibration\__init__.py" />
+    <Compile Include="FinanceLibrary\Products\Credit\__init__.py" />
+    <Compile Include="FinanceLibrary\Products\Equities\EquityObjects.py" />
+    <Compile Include="FinanceLibrary\Products\Equities\__init__.py" />
+    <Compile Include="FinanceLibrary\Products\ForeignExchange\__init__.py" />
+    <Compile Include="FinanceLibrary\Products\Rates\__init__.py" />
+    <Compile Include="FinanceLibrary\Products\__init__.py" />
     <Compile Include="__main__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Finance-Library\" />
-    <Folder Include="Finance-Library\ModelCalibration\" />
-    <Folder Include="Finance-Library\Products\Equities\" />
-    <Folder Include="Finance-Library\Products\ForeignExchange\" />
-    <Folder Include="Finance-Library\EconomicScenarioGenerator\" />
-    <Folder Include="Finance-Library\Products\" />
-    <Folder Include="Finance-Library\Products\Credit\" />
-    <Folder Include="Finance-Library\Products\Rates\" />
+    <Folder Include="FinanceLibrary\" />
+    <Folder Include="FinanceLibrary\ModelCalibration\" />
+    <Folder Include="FinanceLibrary\MarketData\" />
+    <Folder Include="FinanceLibrary\Products\Equities\" />
+    <Folder Include="FinanceLibrary\Products\ForeignExchange\" />
+    <Folder Include="FinanceLibrary\EconomicScenarioGenerator\" />
+    <Folder Include="FinanceLibrary\Products\" />
+    <Folder Include="FinanceLibrary\Products\Credit\" />
+    <Folder Include="FinanceLibrary\Products\Rates\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
