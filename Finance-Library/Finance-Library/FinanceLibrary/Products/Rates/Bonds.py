@@ -9,6 +9,14 @@ class Bond(Product):
     self._couponRate = couponRate
     self._numberOfPeriods = numberOfPeriods
   
+  def PaymentSchedule(self):
+    """
+    Returns a pandas series for bond schedule payments
+    
+    """
+    
+  
+  
   def Price(requiredYield):
     """
     The Handbook of Fixed Income Securities, Sevent Edition Pg 75
